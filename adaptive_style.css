@@ -1,0 +1,111 @@
+@media screen and (min-width: 320px) and (max-width: 719px) {
+  main{width: 100%}
+  .body_div{width: 320px; height:3300px;}
+  /*nav div*/
+  .nav_left{left: 0px;}
+  .nav_button{width: 80px;height: 50px;}
+  .nav_right{left:0px; top: 50px;width: 100%;}
+  .logo{left: 85px;top:100px;}
+  /*end*/
+  .page_name{left: -200px;width: 100%;}
+  /*page_name div*/
+  .restaurant{left: 200px;top:270px;}
+  .name{width: 100%; left:210px;}
+  .board_name{left:330px;top:520px;}
+  .yellow_button{left:250px;top:550px;}
+  .transparent_button{top:620px;}
+  /*end*/
+  .big_div_from_about_us_to_days_phone{margin-top: -150px;width: 100%; height: 1200px;}
+  /*big_div_from_about_us_to_days_phone*/
+  .about_us{left: 20px;}
+  .board_about_us{left: 125px;}
+  .about_us_text{left: 10px;width: 90%;}
+  .about_img{display: none;}
+  .book_a_table{left: 0px;top:630px;width: 100%;}
+  .board_book_a_table{left:120px;top:680px;}
+  .form_1_div{
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 90%;
+    height: 400px;
+    left:20px;
+    top:700px;
+  }
+  .book_now_button{left:0px;top:0px; width: 277px;}
+  .days_phone{width: 90%;left:10px; top:1120px;}
+  /*end*/
+  .specialties{width: 100%;height: 575px;}
+  /*specialties div*/
+  .spec_name{width: 100%;}
+  .chocolate_pancakes{top:120px; left: 70px; width: 70%;}
+  .board_chocolate_pancakes{top:200px;left:120px;}
+  .chocolate_pancakes_description{left: 5px;top:200px; width: 90%;}
+  /*end*/
+  .contact{height: 800px;width: 100%;}
+  /*contact div*/
+  .contact_name{width: 100%;left:0px;top:50px;}
+  .board_contact{left: 130px;top:100px;}
+  .contact_info{left:15px;top:120px;width: 90%;}
+  .contact_form{
+    flex-wrap: nowrap;
+    flex-direction: column;
+    left: 10px;
+    width: 300px;
+    height: 500px;
+  }
+  .small_field{height: 60px;width: 300px;}
+  .big_field{height: 180px;width: 300px;}
+  .send_message_button{width: 300px;left:0px;top:10px;}
+  /*end*/
+  .footer{width: 100%}
+}
+
+@media screen and (min-width: 720px) and (max-width: 1440px) {
+  main{width: 100%}
+  .body_div{width: 720px; height:3300px;}
+  /*nav div*/
+  .nav_left{left: 90px;}
+  .nav_right{left:90px; top: 100px;}
+  .logo{left: 282.5px;top:150px;}
+  /*end*/
+  .page_name{left: -360px;width: 100%;}
+  /*page_name div*/
+  .restaurant{left: 360px;}
+  .name{width: 100%; left:360px;}
+  /*end*/
+  .big_div_from_about_us_to_days_phone{margin-top: -150px;width: 100%; height: 1000px;}
+  /*big_div_from_about_us_to_days_phone*/
+  .about_us{left: 225px;}
+  .board_about_us{left: 330px;}
+  .about_us_text{left: 60px;}
+  .about_img{display: none;}
+  .book_a_table{left: 77.5px;top:550px;}
+  .board_book_a_table{left:329.5px;top:606px;}
+  .form_1_div{left:78px;top:620px;}
+  .days_phone{width: 100%;top:900px;}
+  /*end*/
+  .specialties{width: 100%;}
+  /*specialties div*/
+  .spec_name{width: 100%;}
+  .chocolate_pancakes{left: 60px;}
+  .board_chocolate_pancakes{left:327.5px;}
+  .chocolate_pancakes_description{left: 60px;}
+  /*end*/
+  .contact{height: 800px;width: 100%;}
+  /*contact div*/
+  .contact_name{left:0px;width: 100%;}
+  .board_contact{left: 329.5px;}
+  .contact_info{left:77.5px;}
+  .contact_form{
+    flex-wrap: nowrap;
+    flex-direction: column;
+    left: 170px;
+    width: 380px;
+    height: 500px;
+  }
+  .small_field{height: 60px;}
+  .big_field{height: 180px;width: 380px;}
+  .send_message_button{width: 380px;left:0px;}
+  /*end*/
+  .footer{width: 100%}
+}

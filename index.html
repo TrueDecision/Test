@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="keyword1, keyword2, keyword3">
+    <meta name="description" content="description">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="adaptive_style.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Acme|Open+Sans:400,700&display=swap">
+    <title>Test</title>
+  </head>
+  <body class="no_scrollbar">
+    <div class="body_div">
+      <header>
+        <div class="nav">
+          <div class="nav_left">
+            <a class="nav_button" href=""><p class="p_nav">home</p></a>
+            <a class="nav_button" href="#about"><p>about</p></a>
+            <a class="nav_button" href=""><p>team</p></a>
+            <a class="nav_button" href="#booking"><p>booking</p></a>
+          </div>
+          <div class="logo"><img src="img/Vector.png"></div>
+          <div class="nav_right">
+            <a class="nav_button" href=""><p>menu</p></a>
+            <a class="nav_button" href=""><p>galerie</p></a>
+            <a class="nav_button" href="#events"><p>events</p></a>
+            <a class="nav_button" href="#contact"><p>contact</p></a>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div class="page_name">
+          <div class="restaurant">
+            <p>restaurant</p>
+          </div>
+          <div class="name">
+            <h1>fancy sailor</h1>
+          </div>
+          <div class="board_name"></div>
+          <input type="button" name="button_book_table" value="book table" class="yellow_button"></input>
+          <input type="button" name="button_explore" value="explore" class="yellow_button transparent_button"></input>
+        </div>
+        <div class="big_div_from_about_us_to_days_phone" id="about">
+          <div class="about_us">
+            <h2>about us</h2>
+          </div>
+          <div class="board_about_us"></div>
+          <div class="about_us_text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Duis at velit maximus, molestie est a, tempor magna.</p>
+            <p class="p_normal">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere.
+            Morbi non ultrices ligula.
+            Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem.
+            Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
+          </div>
+          <div class="about_img">
+            <img src="img/about-img.png"></img>
+          </div>
+          <div class="about_img about_img_2" id="booking">
+            <img src="img/about-img2.png"></img>
+          </div>
+          <div class="book_a_table">
+            <h2>book a table</h2>
+          </div>
+          <div class="board_book_a_table"></div>
+          <form action="">
+            <div class="form_1_div">
+              <span class="field"><input class="form_text" value="Name" type="text" onclick="this.value='';" onblur="this.value=!this.value?'Name':this.value;"></span>
+              <span class="field"><input class="form_text" value="Email" type="text" onclick="this.value='';" onblur="this.value=!this.value?'Email':this.value;"></span>
+              <span class="field"><input class="form_text" value="Phone" type="text" onclick="this.value='';" onblur="this.value=!this.value?'Phone':this.value;"></span>
+              <span class="field">
+                <select class="form_text">
+                  <option selected hidden>People</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                </select>
+              </span>
+              <span class="field"><input class="form_text" value="Date (mm/dd)"></span>
+              <span class="field">
+                <select class="form_text">
+                  <option selected hidden>Time</option>
+                  <option value="10:00">10:00</option>
+                  <option value="12:00">12:00</option>
+                  <option value="17:00">17:00</option>
+                </select>
+              </span>
+              <input type="submit" name="button_book_now" value="book now" class="yellow_button book_now_button"></input>
+            </div>
+          </form>
+          <div class="days_phone">
+            <p>Mon - Fri: <b>8PM - 10PM</b>, Sat - Sun: <b>8PM - 3AM</b>, Phone: <b>+40 729 131 637/+40 726 458 782</b></p>
+          </div>
+        </div>
+        <div class="specialties" id="events">
+          <div class="spec_name">
+            <p>specialties</p>
+          </div>
+          <div class="about_img food_img">
+            <img src="img/rectangle.png"></img>
+          </div>
+          <div class="chocolate_pancakes">
+            <h2 class="h2_white">chocolate pancakes</h2>
+          </div>
+          <div class="board_chocolate_pancakes"></div>
+          <div class="chocolate_pancakes_description">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Duis at velit maximus, molestie est a, tempor magna.</p>
+              <p class="p_normal">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere.
+              Morbi non ultrices ligula.
+              Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem.
+              Mauris tincidunt feugiat diam convallis pharetra.
+              Nulla facilisis semper laoreet.</p>
+          </div>
+        </div>
+        <div class="contact" id="contact">
+          <div class="contact_name">
+            <h2>contact</h2>
+          </div>
+          <div class="board_contact"></div>
+          <div class="contact_info">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</p>
+          </div>
+          <form action="">
+            <div class="contact_form">
+              <span class="field small_field"><input class="form_text" value="Name" type="text" onclick="this.value='';" onblur="this.value=!this.value?'Name':this.value;"></span>
+              <span class="field small_field"><input class="form_text" value="Email" type="text" onclick="this.value='';" onblur="this.value=!this.value?'Email':this.value;"></span>
+              <span class="field small_field"><input class="form_text" value="Phone" type="text" onclick="this.value='';" onblur="this.value=!this.value?'Phone':this.value;"></span>
+              <span class="field big_field"><textarea class="form_text form_text_1" type="text" onclick="this.value='';" onblur="this.value=!this.value?'Message':this.value;">Message</textarea></span>
+              <input type="submit" name="button_send_message" value="send message" class="yellow_button send_message_button"></input>
+            </div>
+          </form>
+        </div>
+      </main>
+      <footer>
+        <div class="footer">
+          <p class="footer_font">© Copyright <b>Fancy Sailor</b> 2014</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

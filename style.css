@@ -1,0 +1,519 @@
+.no_scrollbar{
+    overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE 10+ */
+}
+.no_scrollbar::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
+}
+
+html{
+  background-color: black;
+}
+
+body{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+a{
+  text-decoration: none;
+}
+
+header{
+  background: url("img/header-bg.png");
+  width: 100%;
+  height: 800px;
+}
+
+h1, h2 {
+  font-family: "Acme", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 96px;
+}
+
+h2{
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.h2_white{
+  color: #FFFFFF;
+}
+
+p{
+  text-align: center;
+}
+
+.p_normal{
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 28px;
+}
+
+.body_div{
+  position: relative;
+  width: 1440px;
+  height: 3509px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 12px;
+  background-color: #FFFFFF;
+}
+/*navigation in header*/
+.nav{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 175px;
+  display: flex;
+  z-index: 1;
+}
+
+.nav_left{
+  position: absolute;
+  left: 80px;
+  display: flex;
+  height: 100px;
+}
+
+.nav_right{
+  position: absolute;
+  right: 80px;
+  display: flex;
+  height: 100px;
+}
+
+.nav_button{
+  display: flex;
+  width: 133px;
+  text-transform: uppercase;
+  line-height: 18px;
+  color: #FFFFFF;
+  align-items: center;
+  justify-content: center;
+}
+
+a:focus{
+  color: blue;
+}
+
+.logo{
+  position: absolute;
+  top: 25px;
+  left: 645px;
+}
+/*navigation end*/
+.page_name{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 800px;
+  display: flex;
+}
+/*page_name div*/
+.restaurant{
+  position: absolute;
+  top: 326px;
+  left: 1px;
+  display: flex;
+  width: 100%;
+  height: 18.39px;
+  color: #FFFFFF;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+}
+
+.name{
+  position: absolute;
+  top: 340px;
+  left: 222px;
+  width: 998px;
+  height: 139px;
+  display: flex;
+  color: #FFFFFF;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.board_name{
+  position: absolute;
+  top: 479.21px;
+  left: 691px;
+  width: 60px;
+  height: 5.11px;
+  background: #E8C300;
+  border-radius: 50px;
+}
+
+.yellow_button{
+  position: absolute;
+  left: 501px;
+  top: 515px;
+  display: block;
+  width: 200px;
+  height: 60px;
+  color: #FFFFFF;
+  line-height: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #E8C300;
+  border: transparent;
+  border-radius: 5px;
+  font-size: 12px;
+  outline: none;
+}
+
+.yellow_button:focus{
+  background-color: blue;
+}
+
+.transparent_button{
+  left: 741px;
+  background-color: inherit;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-sizing: border-box;
+}
+/*page_name div end*/
+.big_div_from_about_us_to_days_phone{
+  position: relative;
+  width: 1440px;
+  height: 1307px;
+  display: flex;
+}
+/*big_div_from_about_us_to_days_phone*/
+
+.about_us{
+  position: absolute;
+  left: 334.92px;
+  top: 217px;
+  width: 270.44px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.board_about_us{
+  position: absolute;
+  left: 440.58px;
+  top: 273px;
+  width: 59.19px;
+  height: 5px;
+  display: block;
+  background: #E8C300;
+  border-radius: 50px;
+}
+
+.about_us_text{
+  position: absolute;
+  left: 143px;
+  top: 278px;
+  width: 600px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  text-align: center;
+  font-size: 18px;
+}
+
+.about_us_span1{
+  position: relative;
+  top: auto;
+  display: flex;
+  align-content: flex-start;
+
+}
+
+.about_img{
+  position: absolute;
+  left: 823px;
+  top: 100px;
+  width: 475px;
+  height: 475px;
+  display: flex;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.about_img_2{
+  left: 143px;
+  top: 655px;
+}
+
+.book_a_table{
+  position: absolute;
+  left: 733px;
+  top: 717px;
+  width: 565px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.board_book_a_table{
+  position: absolute;
+  left: 985px;
+  top: 773px;
+  width: 60.91px;
+  height: 5px;
+  display: block;
+  background: #E8C300;
+  border-radius: 5px;
+}
+
+.form_1_div{
+  position: absolute;
+  left: 733px;
+  top: 798px;
+  width: 574px;
+  height: 270px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  font-size: 14px;
+  line-height: 19px;
+  align-content: flex-start;
+}
+
+.field{
+  position: relative;
+  width: 277px;
+  height: 60px;
+  display: flex;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.form_text{
+  background-color: #E5E5E5;
+  color: rgba(51, 51, 51, 0.5);
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  text-indent: 20px;
+  outline: none;
+  font-weight: bold;
+}
+
+.form_text:focus{
+  background: #FFFFFF;
+  border: 1px solid #E8C300;
+  color: #2E2E2E;
+}
+
+.book_now_button{
+  position: relative;
+  width: 564px;
+  height: 60px;
+  display: block;
+  top: auto;
+  left: auto;
+  text-align: center;
+  line-height: 60px;
+}
+
+.days_phone{
+  position: absolute;
+  left: 0px;
+  top: 1207px;
+  width: 1440px;
+  height: 100px;
+  line-height: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(51, 51, 51, 0.5);
+  border-radius: 5px;
+  font-weight: normal;
+}
+/*big_div_from_about_us_to_days_phone end*/
+.specialties{
+  position: relative;
+  width: 1440px;
+  height: 675px;
+  display: flex;
+  background-image: url("img/specialty's-bg.png");
+}
+/*specialties div*/
+.spec_name{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1440px;
+  height: 100px;
+  font-weight: bold;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.food_img{
+  left: 143px;
+  top: 100px;
+}
+
+.chocolate_pancakes{
+  position: absolute;
+  left: 698px;
+  top: 217px;
+  width: 600px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.board_chocolate_pancakes{
+  position: absolute;
+  left: 965.14px;
+  top: 273px;
+  width: 64.73px;
+  height: 5px;
+  background: #E8C300;
+  border-radius: 50px;
+}
+
+.chocolate_pancakes_description{
+  position: absolute;
+  left: 698px;
+  top: 278px;
+  width: 598.94px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: center;
+  font-size: 18px;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/*specialties end*/
+.contact{
+  position: relative;
+  width: 1440px;
+  height: 637px;
+  display: flex;
+}
+/*contact div*/
+.contact_name{
+  position: absolute;
+  left: 142px;
+  top: 90px;
+  width: 1155px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.board_contact{
+  position: absolute;
+  left: 691px;
+  top: 143px;
+  width: 60.91px;
+  height: 5px;
+  display: flex;
+  background: #E8C300;
+  border-radius: 5px;
+}
+
+.contact_info{
+  position: absolute;
+  left: 439px;
+  top: 148px;
+  width: 565px;
+  height: 76px;
+  display: flex;
+  align-content: flex-end;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.contact_form{
+  position: absolute;
+  left: 143px;
+  top: 274px;
+  width: 1164px;
+  height: 291px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: flex-start;
+}
+
+.small_field{
+  width: 380px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+.big_field{
+  width: 1155px;
+  height: 120px;
+  margin-bottom: 0px;
+}
+
+.form_text_1{
+  font-size: 14px;
+  padding-top: 20px;
+}
+
+.send_message_button{
+  position: relative;
+  top: 43px;
+  left: 257px;
+  width: 640px;
+  height: 60px;
+  line-height: 60px;
+}
+/*contact end*/
+.footer{
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 1440px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.9);
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer_font{
+  font-weight: normal;
+}
